@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9주차-학점계산과판단문-신윤섭", "9주차-학점계산과판단문-신윤섭\9주차-학점계산과판단문-신윤섭.csproj", "{D67946A1-8428-437A-958F-B13A4C05EEB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D67946A1-8428-437A-958F-B13A4C05EEB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D67946A1-8428-437A-958F-B13A4C05EEB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D67946A1-8428-437A-958F-B13A4C05EEB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D67946A1-8428-437A-958F-B13A4C05EEB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EADE297-31EF-4C0B-8153-55CA74A59F85}
+	EndGlobalSection
+EndGlobal

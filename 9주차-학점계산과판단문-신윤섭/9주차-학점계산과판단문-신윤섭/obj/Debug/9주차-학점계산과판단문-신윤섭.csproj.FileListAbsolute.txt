@@ -1,0 +1,16 @@
+C:\Users\homersub\source\repos\9주차-학점계산과판단문-신윤섭\9주차-학점계산과판단문-신윤섭\obj\Debug\9주차-학점계산과판단문-신윤섭.csprojAssemblyReference.cache
+C:\Users\homersub\source\repos\9주차-학점계산과판단문-신윤섭\9주차-학점계산과판단문-신윤섭\obj\Debug\_9주차_학점계산과판단문_신윤섭.Form1.resources
+C:\Users\homersub\source\repos\9주차-학점계산과판단문-신윤섭\9주차-학점계산과판단문-신윤섭\obj\Debug\_9주차_학점계산과판단문_신윤섭.Properties.Resources.resources
+C:\Users\homersub\source\repos\9주차-학점계산과판단문-신윤섭\9주차-학점계산과판단문-신윤섭\obj\Debug\9주차-학점계산과판단문-신윤섭.csproj.GenerateResource.cache
+C:\Users\homersub\source\repos\9주차-학점계산과판단문-신윤섭\9주차-학점계산과판단문-신윤섭\obj\Debug\9주차-학점계산과판단문-신윤섭.csproj.CoreCompileInputs.cache
+C:\Users\homersub\source\repos\9주차-학점계산과판단문-신윤섭\9주차-학점계산과판단문-신윤섭\bin\Debug\9주차-학점계산과판단문-신윤섭.exe.config
+C:\Users\homersub\source\repos\9주차-학점계산과판단문-신윤섭\9주차-학점계산과판단문-신윤섭\bin\Debug\9주차-학점계산과판단문-신윤섭.exe
+C:\Users\homersub\source\repos\9주차-학점계산과판단문-신윤섭\9주차-학점계산과판단문-신윤섭\bin\Debug\9주차-학점계산과판단문-신윤섭.pdb
+C:\Users\homersub\source\repos\9주차-학점계산과판단문-신윤섭\9주차-학점계산과판단문-신윤섭\obj\Debug\9주차-학점계산과판단문-신윤섭.exe
+C:\Users\homersub\source\repos\9주차-학점계산과판단문-신윤섭\9주차-학점계산과판단문-신윤섭\obj\Debug\9주차-학점계산과판단문-신윤섭.pdb
+C:\Users\homersub\source\repos\9주차-학점계산과판단문-신윤섭\9주차-학점계산과판단문-신윤섭\obj\Debug\_9주차_학점계산과판단문_신윤섭.Form2.resources
+C:\Users\homersub\source\repos\9주차-학점계산과판단문-신윤섭\9주차-학점계산과판단문-신윤섭\obj\Debug\_9주차_학점계산과판단문_신윤섭.Form3.resources
+C:\Users\homersub\source\repos\9주차-학점계산과판단문-신윤섭\9주차-학점계산과판단문-신윤섭\obj\Debug\_9주차_학점계산과판단문_신윤섭.Form4.resources
+C:\Users\homersub\source\repos\9주차-학점계산과판단문-신윤섭\9주차-학점계산과판단문-신윤섭\obj\Debug\_9주차_학점계산과판단문_신윤섭.Form5.resources
+C:\Users\homersub\source\repos\9주차-학점계산과판단문-신윤섭\9주차-학점계산과판단문-신윤섭\obj\Debug\_9주차_학점계산과판단문_신윤섭.Form6.resources
+C:\Users\homersub\source\repos\9주차-학점계산과판단문-신윤섭\9주차-학점계산과판단문-신윤섭\obj\Debug\_9주차_학점계산과판단문_신윤섭.Form7.resources
