@@ -1,0 +1,28 @@
+C:\Users\homersub\source\repos\1주차-간단한프로그램-신윤섭0903\1주차-간단한프로그램-신윤섭0903\bin\Debug\1주차-간단한프로그램-신윤섭0903.exe.config
+C:\Users\homersub\source\repos\1주차-간단한프로그램-신윤섭0903\1주차-간단한프로그램-신윤섭0903\bin\Debug\1주차-간단한프로그램-신윤섭0903.exe
+C:\Users\homersub\source\repos\1주차-간단한프로그램-신윤섭0903\1주차-간단한프로그램-신윤섭0903\bin\Debug\1주차-간단한프로그램-신윤섭0903.pdb
+C:\Users\homersub\source\repos\1주차-간단한프로그램-신윤섭0903\1주차-간단한프로그램-신윤섭0903\obj\Debug\1주차-간단한프로그램-신윤섭0903.csprojAssemblyReference.cache
+C:\Users\homersub\source\repos\1주차-간단한프로그램-신윤섭0903\1주차-간단한프로그램-신윤섭0903\obj\Debug\_1주차_간단한프로그램_신윤섭0903.Form1.resources
+C:\Users\homersub\source\repos\1주차-간단한프로그램-신윤섭0903\1주차-간단한프로그램-신윤섭0903\obj\Debug\_1주차_간단한프로그램_신윤섭0903.Properties.Resources.resources
+C:\Users\homersub\source\repos\1주차-간단한프로그램-신윤섭0903\1주차-간단한프로그램-신윤섭0903\obj\Debug\1주차-간단한프로그램-신윤섭0903.csproj.GenerateResource.cache
+C:\Users\homersub\source\repos\1주차-간단한프로그램-신윤섭0903\1주차-간단한프로그램-신윤섭0903\obj\Debug\1주차-간단한프로그램-신윤섭0903.csproj.CoreCompileInputs.cache
+C:\Users\homersub\source\repos\1주차-간단한프로그램-신윤섭0903\1주차-간단한프로그램-신윤섭0903\obj\Debug\1주차-간단한프로그램-신윤섭0903.exe
+C:\Users\homersub\source\repos\1주차-간단한프로그램-신윤섭0903\1주차-간단한프로그램-신윤섭0903\obj\Debug\1주차-간단한프로그램-신윤섭0903.pdb
+C:\Users\homersub\source\repos\1주차-간단한프로그램-신윤섭0903\1주차-간단한프로그램-신윤섭0903\obj\Debug\_1주차_간단한프로그램_신윤섭0903.Form2.resources
+C:\Users\homersub\source\repos\1주차-간단한프로그램-신윤섭0903\1주차-간단한프로그램-신윤섭0903\obj\Debug\_1주차_간단한프로그램_신윤섭0903.Form3.resources
+C:\Users\homersub\source\repos\1주차-간단한프로그램-신윤섭0903\1주차-간단한프로그램-신윤섭0903\obj\Debug\_1주차_간단한프로그램_신윤섭0903.Form4.resources
+C:\Users\homersub\source\repos\1주차-간단한프로그램-신윤섭0903\1주차-간단한프로그램-신윤섭0903\obj\Debug\_1주차_간단한프로그램_신윤섭0903.Form5.resources
+C:\Users\nobbl\OneDrive\바탕 화면\1학년 서일대학교\2학기\C#프로그래밍\1주차-간단한프로그램-신윤섭0903\1주차-간단한프로그램-신윤섭0903\bin\Debug\1주차-간단한프로그램-신윤섭0903.exe.config
+C:\Users\nobbl\OneDrive\바탕 화면\1학년 서일대학교\2학기\C#프로그래밍\1주차-간단한프로그램-신윤섭0903\1주차-간단한프로그램-신윤섭0903\bin\Debug\1주차-간단한프로그램-신윤섭0903.exe
+C:\Users\nobbl\OneDrive\바탕 화면\1학년 서일대학교\2학기\C#프로그래밍\1주차-간단한프로그램-신윤섭0903\1주차-간단한프로그램-신윤섭0903\bin\Debug\1주차-간단한프로그램-신윤섭0903.pdb
+C:\Users\nobbl\OneDrive\바탕 화면\1학년 서일대학교\2학기\C#프로그래밍\1주차-간단한프로그램-신윤섭0903\1주차-간단한프로그램-신윤섭0903\obj\Debug\1주차-간단한프로그램-신윤섭0903.csproj.AssemblyReference.cache
+C:\Users\nobbl\OneDrive\바탕 화면\1학년 서일대학교\2학기\C#프로그래밍\1주차-간단한프로그램-신윤섭0903\1주차-간단한프로그램-신윤섭0903\obj\Debug\_1주차_간단한프로그램_신윤섭0903.Form1.resources
+C:\Users\nobbl\OneDrive\바탕 화면\1학년 서일대학교\2학기\C#프로그래밍\1주차-간단한프로그램-신윤섭0903\1주차-간단한프로그램-신윤섭0903\obj\Debug\_1주차_간단한프로그램_신윤섭0903.Form2.resources
+C:\Users\nobbl\OneDrive\바탕 화면\1학년 서일대학교\2학기\C#프로그래밍\1주차-간단한프로그램-신윤섭0903\1주차-간단한프로그램-신윤섭0903\obj\Debug\_1주차_간단한프로그램_신윤섭0903.Form3.resources
+C:\Users\nobbl\OneDrive\바탕 화면\1학년 서일대학교\2학기\C#프로그래밍\1주차-간단한프로그램-신윤섭0903\1주차-간단한프로그램-신윤섭0903\obj\Debug\_1주차_간단한프로그램_신윤섭0903.Form4.resources
+C:\Users\nobbl\OneDrive\바탕 화면\1학년 서일대학교\2학기\C#프로그래밍\1주차-간단한프로그램-신윤섭0903\1주차-간단한프로그램-신윤섭0903\obj\Debug\_1주차_간단한프로그램_신윤섭0903.Form5.resources
+C:\Users\nobbl\OneDrive\바탕 화면\1학년 서일대학교\2학기\C#프로그래밍\1주차-간단한프로그램-신윤섭0903\1주차-간단한프로그램-신윤섭0903\obj\Debug\_1주차_간단한프로그램_신윤섭0903.Properties.Resources.resources
+C:\Users\nobbl\OneDrive\바탕 화면\1학년 서일대학교\2학기\C#프로그래밍\1주차-간단한프로그램-신윤섭0903\1주차-간단한프로그램-신윤섭0903\obj\Debug\1주차-간단한프로그램-신윤섭0903.csproj.GenerateResource.cache
+C:\Users\nobbl\OneDrive\바탕 화면\1학년 서일대학교\2학기\C#프로그래밍\1주차-간단한프로그램-신윤섭0903\1주차-간단한프로그램-신윤섭0903\obj\Debug\1주차-간단한프로그램-신윤섭0903.csproj.CoreCompileInputs.cache
+C:\Users\nobbl\OneDrive\바탕 화면\1학년 서일대학교\2학기\C#프로그래밍\1주차-간단한프로그램-신윤섭0903\1주차-간단한프로그램-신윤섭0903\obj\Debug\1주차-간단한프로그램-신윤섭0903.exe
+C:\Users\nobbl\OneDrive\바탕 화면\1학년 서일대학교\2학기\C#프로그래밍\1주차-간단한프로그램-신윤섭0903\1주차-간단한프로그램-신윤섭0903\obj\Debug\1주차-간단한프로그램-신윤섭0903.pdb
