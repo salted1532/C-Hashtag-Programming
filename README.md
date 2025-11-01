@@ -489,3 +489,90 @@ switch(textBox1.Text)
     default: MessageBox.Show("A+, A0 ~F중 입력하세요!", "[경고2]"); break;
 }
 ```
+---
+# 11주차: 신호등과 애니메이션 프로그램
+
+## 1. 학습 목표
+- Windows Forms에서 Timer를 이용한 주기적 이벤트 처리
+- PictureBox를 활용한 이미지 변경
+- 사용자 정의 함수(프로시저)를 통한 코드 재사용
+- 조건문과 삼항연산자를 활용한 이미지 선택 로직 구현
+
+---
+
+## 2. Form1: 신호등 구현 (자작 함수 이용)
+
+### 주요 기능
+- `ChangeSinhodoong(int Color)` 함수 정의:
+  - 신호등의 상태에 따라 PictureBox에 이미지를 표시
+  - `Color` 값에 따라 준비, 빨간불, 노란불, 초록불 이미지 표시
+- Timer 컨트롤을 사용해 주기적으로 `ChangeSinhodoong(colors)` 호출
+- `colors` 값은 1~4 사이를 순환
+- Form Load 시 초기 상태 설정
+
+### 코드 포인트
+```csharp
+public void ChangeSinhodoong(int Color)
+{
+    switch(Color)
+    {
+        case 0:
+            pictureBox1.Image = Image.FromFile("신호등(준비중).png");
+            break;
+        case 1:
+            pictureBox1.Image = Image.FromFile("신호등(적색).png");
+            break;
+        case 2:
+            pictureBox1.Image = Image.FromFile("신호등(노란색).png");
+            break;
+        case 3:
+            pictureBox1.Image = Image.FromFile("신호등(녹색).png");
+            break;
+        case 4:
+            pictureBox1.Image = Image.FromFile("신호등(노란색).png");
+            break;
+    }
+}
+```
+---
+## 3. Form2: 신호등 구현 (삼항 연산자 이용)
+- **주요 기능**
+- Timer Tick 이벤트에서 삼항연산자를 이용해 이미지 순환
+
+- 기존 Form1의 switch문 대신 간단하게 colors 값을 관리
+```
+csharp
+pictureBox1.Image = Image.FromFile(
+    System.Environment.CurrentDirectory + "/사진모음/신호등/" + 
+    (colors >= 5 ? colors = 1 : colors++) + ".png"
+);
+```
+---
+## 4. Form3: 여러 애니메이션(음짤) 구현
+- **주요 기능**
+- 3개의 PictureBox를 동시에 사용하여 이미지 애니메이션 구현
+
+- 각 PictureBox별로 이미지 개수에 따라 다른 주기로 반복
+
+- Timer Tick 이벤트에서 삼항 연산자를 활용하여 이미지 순환
+```
+csharp
+pictureBox1.Image = Image.FromFile(
+    System.Environment.CurrentDirectory + "/사진모음/엄마에게 다가가는 새끼 코끼리/" + 
+    (color_1 >= 5 ? color_1 = 1 : color_1++) + ".jpg"
+);
+
+pictureBox2.Image = Image.FromFile(
+    System.Environment.CurrentDirectory + "/사진모음/다가오는 코끼리 두마리/" + 
+    (color_2 >= 6 ? color_2 = 1 : color_2++) + ".jpg"
+);
+
+pictureBox3.Image = Image.FromFile(
+    System.Environment.CurrentDirectory + "/사진모음/돌아서는 오버액션토끼/" + 
+    (color_3 >= 7 ? color_3 = 1 : color_3++) + ".jpg"
+);
+```
+- **특징**
+- 각 애니메이션마다 이미지 파일 수가 다름
+
+- 삼항연산자를 활용하여 반복문 없이 이미지 순환 구현
