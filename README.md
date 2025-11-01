@@ -124,13 +124,10 @@ textBox1.Text = str + Environment.NewLine + " 입니다.";
 ### 2. Form2 — 콤보박스
 
 - **기능:**
-
   -이름과 거주지역 선택 후 메시지 박스 출력
 
 - **핵심 학습 포인트:**
-
   -ComboBox.Items.Add()와 SelectedIndex 사용
-
   -Form.Load 이벤트에서 초기값 설정
 
 - **예시 코드:**
@@ -150,15 +147,11 @@ private void button1_Click(object sender, EventArgs e)
 ### 3. Form3 — 리스트박스
 
 - **기능:**
-
   - 기본 아이템 추가 및 입력값 추가
-
   - 선택 항목 다른 리스트박스로 이동/삭제
 
 - **핵심 학습 포인트:**
-
   - ListBox.Items.Add(), ListBox.Items.Remove() 사용
-
   - TextBox.Focus()로 입력 포커스 제어
 
 - **예시 코드:**
@@ -173,13 +166,10 @@ listBox2.Items.Remove(listBox2.Text);
 ### 4. Form4 — 종합 출력
 
 - **기능:**
-
   - 이름, 성별, 나이, 반려동물 정보 종합 출력
 
 - **핵심 학습 포인트:**
-
   - 다양한 컨트롤 값 결합
-
   - 조건문을 이용한 라디오버튼 확인
 
 - **예시 코드:**
@@ -195,13 +185,10 @@ if(radioButton1.Checked)
 ### 1. Form1 — 반복문 비교
 
 - **기능:**
-
   - 1~9단 구구단 출력 (for, while, do-while, while(true) 사용)
 
 - **핵심 학습 포인트:**
-
   - 반복문 구조 이해
-
   - 변수 초기화 및 중첩 반복문
 
   - Environment.NewLine 활용
@@ -221,7 +208,6 @@ for(int iDan = 1; iDan < 10; iDan++)
 ### 2. Form2 — 3단씩 묶어서 출력
 
 - **기능:**
-
   - 1~9단을 3단씩 묶어서 출력
 
 - **예시 코드:**
@@ -243,7 +229,6 @@ for(int iDan = 1; iDan < 10; iDan += 3)
 ### 3. Form3 — while + 중첩 while
 
 - **기능:**
-
   - while 문으로 3단씩 묶어 출력
 
 - **예시 코드:**
@@ -271,7 +256,6 @@ while(uDan < 10)
 ### 4. Form4 — do-while 반복문
 
 - **기능:**
-
   - do-while 문으로 3단씩 묶어 출력
 
 - **예시 코드:**
@@ -299,7 +283,6 @@ do
 ### 5. Form5 — while(true) 무한 루프
 
 - **기능:**
-
   - while(true) + break로 3단씩 묶어 출력
 
 - **예시 코드:**
@@ -350,19 +333,14 @@ textBox2.Text = sHakjum;
 ---
 ## 2. Form2 — switch 문을 활용한 학점 계산
 - **기능:**
-
-- 점수를 입력받아 5점 단위로 나눈 후 학점 계산
-
+  - 점수를 입력받아 5점 단위로 나눈 후 학점 계산
 - **핵심 학습 포인트:**
-
-- switch 문 활용
-
-- 동일한 case를 여러 조건에 적용 가능
+  - switch 문 활용
+  - 동일한 case를 여러 조건에 적용 가능
 
 - **예시 코드:**
 ```
 csharp
-코드 복사
 switch(ijumsu / 5)
 {
     case 20:
@@ -376,19 +354,15 @@ textBox2.Text = sHakjum;
 ---
 ## 3. Form3 — 여러 과목 점수 입력 후 학점 계산
 - **기능:**
-
-- 9과목 점수를 입력받아 각각 학점 계산
+  - 9과목 점수를 입력받아 각각 학점 계산
 
 - **핵심 학습 포인트:**
-
-- 배열(int[], string[]) 활용
-
-- 반복문(for)으로 학점 계산 및 출력
+  - 배열(int[], string[]) 활용
+  - 반복문(for)으로 학점 계산 및 출력
 
 - **예시 코드:**
 ```
 csharp
-코드 복사
 int[] ijumsu = new int[9];
 string[] sHakjum = new string[9];
 
@@ -403,19 +377,14 @@ for(int i=0; i<9; i++)
 ---
 ## 4. Form4 — 배열 + TextBox 컨트롤 묶음 활용
 - **기능:**
-
-- Form3와 동일하지만 TextBox[] 배열로 입력/출력 통합
-
+  - Form3와 동일하지만 TextBox[] 배열로 입력/출력 통합
 - **핵심 학습 포인트:**
-
-- 반복문으로 여러 TextBox 처리
-
-- TextBox.Focus()와 텍스트 선택 기능
+  - 반복문으로 여러 TextBox 처리
+  - TextBox.Focus()와 텍스트 선택 기능
 
 - **예시 코드:**
 ```
 csharp
-코드 복사
 txtInput = new TextBox[] { textBox1, ..., textBox9 };
 txtOutput = new TextBox[] { textBox10, ..., textBox18 };
 
@@ -429,17 +398,13 @@ for(int i=0; i<9; i++)
 ---
 ## 5. Form5 — 별점에 따른 만족도 출력 (if~else)
 - **기능:**
-
-- 별점 1~5개를 입력받아 만족도 출력
-
+  - 별점 1~5개를 입력받아 만족도 출력
 - **핵심 학습 포인트:**
-
-- 문자열 비교 조건문(if ~ else if) 사용
+  - 문자열 비교 조건문(if ~ else if) 사용
 
 - **예시 코드:**
 ```
 csharp
-코드 복사
 if(textBox1.Text == "★") textBox2.Text = "매우 불만족입니다!";
 else if(textBox1.Text == "★★") textBox2.Text = "불만족입니다!";
 ...
@@ -447,17 +412,13 @@ else if(textBox1.Text == "★★") textBox2.Text = "불만족입니다!";
 ---
 ## 6. Form6 — 별점에 따른 만족도 출력 (switch)
 - **기능:**
-
-- Form5와 동일 기능, switch 활용
-
+  - Form5와 동일 기능, switch 활용
 - **핵심 학습 포인트:**
-
-- switch 문으로 조건 분기
+  - switch 문으로 조건 분기
 
 - **예시 코드:**
 ```
 csharp
-코드 복사
 switch(textBox1.Text)
 {
     case "★": textBox2.Text = "매우 불만족입니다!"; break;
