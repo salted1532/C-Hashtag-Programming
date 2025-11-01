@@ -23,6 +23,9 @@
 | **3주차** | 사용자 입력 → 출력 변환 | - 입력된 문자열을 가공해서 다른 컨트롤에 출력<br>- 문자열 결합(`+`)과 개행(`\r\n`) 사용 | ```csharp textBox2.Text = textBox1.Text + "님 코로나 19 조심~";``` |
 | **4주차** | MessageBox 심화 사용 | - 메시지 박스의 제목/내용 제어<br>- `Convert.ToChar()`로 특수문자 출력 처리 | ```csharp MessageBox.Show(textBox1.Text + "님 오후수업 화이팅", Convert.ToChar(34) + "\"[안내사항]\"" + Convert.ToChar(34)); ``` |
 | **5주차** | 복합 데이터 처리 및 문자열 포맷 | - 여러 입력(TextBox1, TextBox2) 결합<br>- 줄바꿈(`\n`, `\r\n`) 활용<br>- 메시지박스와 텍스트박스 동시 출력 | ```csharp textBox3.Text = textBox1.Text + "님~~~!,\r\n당신의 학번은" + textBox2.Text + "\r\n입니다."; ``` |
+| **9주차** | 학점 계산 및 조건문 활용 | - 점수 입력 → 학점 계산<br>- `if-else` 및 `switch-case` 활용<br>- 배열과 반복문을 사용한 다수 점수 처리<br>- 별점 평가와 학점별 안내 메시지 구현 | ```csharp if(ijumsu >= 96){ sHakjum = "A+"; } else {...} ```<br>→ 점수에 따라 학점 자동 계산<br>```csharp switch(textBox1.Text){ case "A+": ... } ```<br>→ 학점에 따른 안내 메시지 출력 |
+| **11주차** | 신호등 이미지 및 음짤 만들기 | - `Timer`를 이용한 자동 이미지 변경<br>- `PictureBox.Image`로 이미지 표시<br>- 삼중 반복 이미지 출력 (다중 PictureBox) | ```csharp pictureBox1.Image = Image.FromFile("사진경로/1.png");```<br>→ 일정 시간마다 신호등 색 변경<br>```csharp pictureBox2.Image = Image.FromFile("사진경로/2.jpg");```<br>→ 반복적으로 이미지 변경 |
+| **12주차** | 마우스로 동작하는 계산기 | - 일반 계산기 / 공학 계산기 모드 전환<br>- 버튼 클릭으로 숫자 및 연산 입력<br>- Clear_Flag, bJjeom_Flag로 상태 관리<br>- 연산자와 특수 연산 처리 (`+`, `-`, `×`, `÷`, `^`, `%`, 팩토리얼, 삼각함수 등)<br>- Form 소유자(`Owner`) 활용 폼 간 데이터 이동 | ```csharp if(Clear_Flag){ textBox1.Text=""; Clear_Flag=false; }```<br>→ 연산 후 숫자 초기화<br>```csharp textBox1.Text = Math.Sin(double.Parse(textBox1.Text)*Math.PI/180).ToString();```<br>→ 삼각함수 계산 |
 
 ---
 
