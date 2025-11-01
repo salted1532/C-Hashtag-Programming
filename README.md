@@ -1,4 +1,4 @@
-# C-Programming
+# C#-Programming
 
 ## 📚 과목 소개 (Course Overview)
 
