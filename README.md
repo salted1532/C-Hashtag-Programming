@@ -429,14 +429,11 @@ switch(textBox1.Text)
 ---
 ## 7. Form7 — 학점에 따른 상세 평가 출력
 - **기능:**
-
-- 학점(A+, A0 ~ F)을 입력받아 점수 범위와 평가 메시지 출력
+  - 학점(A+, A0 ~ F)을 입력받아 점수 범위와 평가 메시지 출력
 
 - **핵심 학습 포인트:**
-
-- switch 문 활용
-
-- 사용자 입력 검증
+  - switch 문 활용
+  - 사용자 입력 검증
 
 - **예시 코드:**
 ```
@@ -467,9 +464,9 @@ switch(textBox1.Text)
 - `ChangeSinhodoong(int Color)` 함수 정의:
   - 신호등의 상태에 따라 PictureBox에 이미지를 표시
   - `Color` 값에 따라 준비, 빨간불, 노란불, 초록불 이미지 표시
-- Timer 컨트롤을 사용해 주기적으로 `ChangeSinhodoong(colors)` 호출
-- `colors` 값은 1~4 사이를 순환
-- Form Load 시 초기 상태 설정
+  - Timer 컨트롤을 사용해 주기적으로 `ChangeSinhodoong(colors)` 호출
+  - `colors` 값은 1~4 사이를 순환
+  - Form Load 시 초기 상태 설정
 
 ### 코드 포인트
 ```csharp
@@ -498,9 +495,8 @@ public void ChangeSinhodoong(int Color)
 ---
 ## 3. Form2: 신호등 구현 (삼항 연산자 이용)
 - **주요 기능**
-- Timer Tick 이벤트에서 삼항연산자를 이용해 이미지 순환
-
-- 기존 Form1의 switch문 대신 간단하게 colors 값을 관리
+  - Timer Tick 이벤트에서 삼항연산자를 이용해 이미지 순환
+  - 기존 Form1의 switch문 대신 간단하게 colors 값을 관리
 ```
 csharp
 pictureBox1.Image = Image.FromFile(
@@ -511,11 +507,9 @@ pictureBox1.Image = Image.FromFile(
 ---
 ## 4. Form3: 여러 애니메이션(음짤) 구현
 - **주요 기능**
-- 3개의 PictureBox를 동시에 사용하여 이미지 애니메이션 구현
-
-- 각 PictureBox별로 이미지 개수에 따라 다른 주기로 반복
-
-- Timer Tick 이벤트에서 삼항 연산자를 활용하여 이미지 순환
+  - 3개의 PictureBox를 동시에 사용하여 이미지 애니메이션 구현
+  - 각 PictureBox별로 이미지 개수에 따라 다른 주기로 반복
+  - Timer Tick 이벤트에서 삼항 연산자를 활용하여 이미지 순환
 ```
 csharp
 pictureBox1.Image = Image.FromFile(
@@ -534,6 +528,5 @@ pictureBox3.Image = Image.FromFile(
 );
 ```
 - **특징**
-- 각 애니메이션마다 이미지 파일 수가 다름
-
-- 삼항연산자를 활용하여 반복문 없이 이미지 순환 구현
+  - 각 애니메이션마다 이미지 파일 수가 다름
+  - 삼항연산자를 활용하여 반복문 없이 이미지 순환 구현
